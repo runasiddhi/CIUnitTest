@@ -1,0 +1,22 @@
+{
+    "name": "olivemedia/ciunit-test",
+    "description": "Package with PHPUnit for Unit and Selenium testing in CodeIgniter.",    
+    "license": "MIT",
+
+	"authors": [
+    	{
+    	"name": "runasiddhi",
+    	"email": "runa.bajrachraya@olivemedia.co"
+    	}
+    ],
+    
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "4.8.*"
+   		       },
+    "autoload": {
+        "psr-4":  {
+		"AcademyHQ\\CIUnit\\": "src/"
+		           }
+   		        }
+}
